@@ -1,6 +1,13 @@
 
 class Trip:
-    pass
+    def __init__(self, id, status, startTime, endTime, passenger, driver):
+        self.id = id
+        self.status = status
+        self.startTime = startTime
+        self.endTime = endTime
+        self.passenger = passenger
+        self.driver = driver
+    
 
 # - attributes:
 #     - id 
